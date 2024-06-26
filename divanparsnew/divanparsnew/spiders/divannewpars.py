@@ -118,3 +118,4 @@ class DivannewparsSpider(scrapy.Spider):
         if file_path:
             df = pd.DataFrame(self.divan_list)
             df.to_excel(file_path, index=False)
+
